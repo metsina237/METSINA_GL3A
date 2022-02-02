@@ -26,6 +26,7 @@ class RobotTest {
     }
 
     // teste qu'il est impossible de tirer sur un robot mort//
+
     @org.junit.jupiter.api.Test
     void TestDeadFire(){
         Data.setVie(0);
